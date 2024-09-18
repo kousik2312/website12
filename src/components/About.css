@@ -1,0 +1,35 @@
+.about-container {
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .about-container h1 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 28px;
+    color: #004b8d;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #008080;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

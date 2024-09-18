@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #004b8d;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .company-name {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .company-name h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .company-caption {
+    color: #d1d1d1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .nav-links {
+    flex: 1;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+  }
+  
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap; /* Prevents wrapping */
+  }
+  
+  .nav-links ul li a:hover {
+    color: #008080;
+  }
